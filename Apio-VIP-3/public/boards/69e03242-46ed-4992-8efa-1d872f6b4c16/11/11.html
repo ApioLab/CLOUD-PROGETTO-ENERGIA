@@ -1,0 +1,29 @@
+<div id="ApioApplication11" ng-app="ApioApplication11" style="padding: 10px; background-color: rgb(166, 207, 98);">
+    <div ng-controller="defaultController">
+        <topappapplication></topappapplication>
+        <div id="app" style="display: block;">
+            <collapse propertyName="collapseFrigo" label="Frigo" open="false" link="air">
+                <unlimitedsensor propertyname="VOCFrigo" label="VOC Frigo"></unlimitedsensor>
+                <unlimitedsensor propertyname="C02Frigo" label="CO2 Frigo"></unlimitedsensor>
+                <unlimitedsensor propertyname="temperatureFrigo" label="Temperatura Frigo"></unlimitedsensor>
+                <unlimitedsensor propertyname="humidityFrigo" label="Umidità Frigo"></unlimitedsensor>
+                <unlimitedsensor propertyname="luminositaFrigo" label="Luminosità Frigo"></unlimitedsensor>
+            </collapse>
+
+            <collapse propertyName="collapseCasse" label="Casse" open="false" link="air">
+                <unlimitedsensor propertyname="VOCCasse" label="VOC Casse"></unlimitedsensor>
+                <unlimitedsensor propertyname="C02Casse" label="CO2 Casse"></unlimitedsensor>
+                <unlimitedsensor propertyname="temperatureCasse" label="Temperatura Casse"></unlimitedsensor>
+                <unlimitedsensor propertyname="humidityCassa" label="Umidità Casse"></unlimitedsensor>
+                <unlimitedsensor propertyname="luminositaCassa" label="Luminosità Casse"></unlimitedsensor>
+            </collapse>
+
+            <unlimitedsensor propertyname="VOC" label="VOC" style=""></unlimitedsensor>
+            <unlimitedsensor propertyname="C02" label="CO2" style=""></unlimitedsensor>
+            <unlimitedsensor propertyname="temperature" label="temperature" style=""></unlimitedsensor>
+            <unlimitedsensor propertyname="humidity" label="humidity" style=""></unlimitedsensor>
+            <unlimitedsensor propertyname="luminosita" label="luminosita" style=""></unlimitedsensor>
+        </div>
+    </div>
+</div>
+<script src="applications/11/11.js"></script>

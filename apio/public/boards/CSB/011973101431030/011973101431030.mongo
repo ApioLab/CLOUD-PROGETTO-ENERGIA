@@ -1,0 +1,74 @@
+{
+    "db": {},
+    "marker": {},
+    "notifications": {},
+    "properties": {
+        "stato": {
+            "label": "Stato",
+            "type": "asyncdisplay",
+            "value": "ON"
+        },
+        "indirizzo": {
+            "label": "Indirizzo",
+            "type": "asyncdisplay",
+            "value": ""
+        },
+        "nominale": {
+            "label": "Nominale",
+            "type": "asyncdisplay",
+            "value": "100 W"
+        },
+        "potenza": {
+            "label": "Potenza",
+            "type": "asyncdisplay",
+            "value": "77.7 W"
+        },
+        "tensione": {
+            "label": "Tensione",
+            "type": "asyncdisplay",
+            "value": "221.9 V"
+        },
+        "corrente": {
+            "label": "Corrente",
+            "type": "asyncdisplay",
+            "value": "347 mA"
+        },
+        "tensione_lamp": {
+            "label": "Tensione Lamp.",
+            "type": "asyncdisplay",
+            "value": "86 V"
+        },
+        "temp_hid": {
+            "label": "Temp. HID",
+            "type": "asyncdisplay",
+            "value": "54 °C"
+        },
+        "data": {
+            "label": "Data",
+            "type": "asyncdisplay",
+            "value": "12/12/2017"
+        },
+        "ora": {
+            "label": "Ora",
+            "type": "asyncdisplay",
+            "value": "04:09"
+        },
+        "img": {
+            "type": "uploadimage",
+            "label": "Immagine",
+            "value": "0"
+        }
+    },
+    "protocol": "p",
+    "type": "object",
+    "group": {
+        "path": "/images/elettricalpanel.png",
+        "id": "011973",
+        "name": "Q_010 - Via Enrico Mattei"
+    },
+    "address": "011973101431030",
+    "apioId": "CSB",
+    "name": "101431030",
+    "objectId": "011973101431030",
+    "_id": "5a2f62b51e6a3c05fc60f4c8"
+}

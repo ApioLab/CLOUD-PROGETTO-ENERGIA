@@ -1,0 +1,74 @@
+{
+    "db": {},
+    "marker": {},
+    "notifications": {},
+    "properties": {
+        "stato": {
+            "label": "Stato",
+            "type": "asyncdisplay",
+            "value": "ON"
+        },
+        "indirizzo": {
+            "label": "Indirizzo",
+            "type": "asyncdisplay",
+            "value": "163.VIA VOLTA.030.B"
+        },
+        "nominale": {
+            "label": "Nominale",
+            "type": "asyncdisplay",
+            "value": "70 W"
+        },
+        "potenza": {
+            "label": "Potenza",
+            "type": "asyncdisplay",
+            "value": "62.7 W"
+        },
+        "tensione": {
+            "label": "Tensione",
+            "type": "asyncdisplay",
+            "value": "236.6 V"
+        },
+        "corrente": {
+            "label": "Corrente",
+            "type": "asyncdisplay",
+            "value": "263 mA"
+        },
+        "tensione_lamp": {
+            "label": "Tensione Lamp.",
+            "type": "asyncdisplay",
+            "value": "68 V"
+        },
+        "temp_hid": {
+            "label": "Temp. HID",
+            "type": "asyncdisplay",
+            "value": "55 °C"
+        },
+        "data": {
+            "label": "Data",
+            "type": "asyncdisplay",
+            "value": "14/08/2016"
+        },
+        "ora": {
+            "label": "Ora",
+            "type": "asyncdisplay",
+            "value": "04:35"
+        },
+        "img": {
+            "type": "uploadimage",
+            "label": "Immagine",
+            "value": "0"
+        }
+    },
+    "protocol": "p",
+    "type": "object",
+    "group": {
+        "path": "/images/elettricalpanel.png",
+        "id": "010719",
+        "name": "Q163 - Via Volta_Salara Vecchia"
+    },
+    "address": "010719291251103",
+    "apioId": "Pescara Gas",
+    "name": "291251103",
+    "objectId": "010719291251103",
+    "_id": "57b0a07ad087108060e1ddb3"
+}

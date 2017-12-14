@@ -1,0 +1,74 @@
+{
+    "db": {},
+    "marker": {},
+    "notifications": {},
+    "properties": {
+        "stato": {
+            "label": "Stato",
+            "type": "asyncdisplay",
+            "value": "ON"
+        },
+        "indirizzo": {
+            "label": "Indirizzo",
+            "type": "asyncdisplay",
+            "value": "117.VIA ZUCCARI.003.A"
+        },
+        "nominale": {
+            "label": "Nominale",
+            "type": "asyncdisplay",
+            "value": "100 W"
+        },
+        "potenza": {
+            "label": "Potenza",
+            "type": "asyncdisplay",
+            "value": "79.8 W"
+        },
+        "tensione": {
+            "label": "Tensione",
+            "type": "asyncdisplay",
+            "value": "230.3 V"
+        },
+        "corrente": {
+            "label": "Corrente",
+            "type": "asyncdisplay",
+            "value": "344 mA"
+        },
+        "tensione_lamp": {
+            "label": "Tensione Lamp.",
+            "type": "asyncdisplay",
+            "value": "80 V"
+        },
+        "temp_hid": {
+            "label": "Temp. HID",
+            "type": "asyncdisplay",
+            "value": "57 °C"
+        },
+        "data": {
+            "label": "Data",
+            "type": "asyncdisplay",
+            "value": "17/07/2016"
+        },
+        "ora": {
+            "label": "Ora",
+            "type": "asyncdisplay",
+            "value": "04:35"
+        },
+        "img": {
+            "type": "uploadimage",
+            "label": "Immagine",
+            "value": "0"
+        }
+    },
+    "protocol": "p",
+    "type": "object",
+    "group": {
+        "path": "/images/elettricalpanel.png",
+        "id": "011291",
+        "name": "Q117 - Via Delfico"
+    },
+    "address": "011291301231227",
+    "apioId": "Pescara Gas",
+    "name": "301231227",
+    "objectId": "011291301231227",
+    "_id": "578bac64a2bb93f74efec1a7"
+}

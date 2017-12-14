@@ -1,0 +1,74 @@
+{
+    "db": {},
+    "marker": {},
+    "notifications": {},
+    "properties": {
+        "stato": {
+            "label": "Stato",
+            "type": "asyncdisplay",
+            "value": "Errore di Comunicazione"
+        },
+        "indirizzo": {
+            "label": "Indirizzo",
+            "type": "asyncdisplay",
+            "value": "003.VIA DEI GIARDINI.1371.B"
+        },
+        "nominale": {
+            "label": "Nominale",
+            "type": "asyncdisplay",
+            "value": "70 W"
+        },
+        "potenza": {
+            "label": "Potenza",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "tensione": {
+            "label": "Tensione",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "corrente": {
+            "label": "Corrente",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "tensione_lamp": {
+            "label": "Tensione Lamp.",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "temp_hid": {
+            "label": "Temp. HID",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "data": {
+            "label": "Data",
+            "type": "asyncdisplay",
+            "value": "10/02/2017"
+        },
+        "ora": {
+            "label": "Ora",
+            "type": "asyncdisplay",
+            "value": "04:07"
+        },
+        "img": {
+            "type": "uploadimage",
+            "label": "Immagine",
+            "value": "0"
+        }
+    },
+    "protocol": "p",
+    "type": "object",
+    "group": {
+        "path": "/images/elettricalpanel.png",
+        "id": "012089",
+        "name": "Q_008 - Via De Nicola sn  ( Via De Gasperi)"
+    },
+    "address": "012089221251031",
+    "apioId": "CSB",
+    "name": "221251031",
+    "objectId": "012089221251031",
+    "_id": "589d49b8c33753c44dd3bcaa"
+}

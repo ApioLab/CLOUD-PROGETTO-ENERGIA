@@ -1,0 +1,74 @@
+{
+    "db": {},
+    "marker": {},
+    "notifications": {},
+    "properties": {
+        "stato": {
+            "label": "Stato",
+            "type": "asyncdisplay",
+            "value": "ON"
+        },
+        "indirizzo": {
+            "label": "Indirizzo",
+            "type": "asyncdisplay",
+            "value": ""
+        },
+        "nominale": {
+            "label": "Nominale",
+            "type": "asyncdisplay",
+            "value": "150 VA"
+        },
+        "potenza": {
+            "label": "Potenza",
+            "type": "asyncdisplay",
+            "value": "43.4 W"
+        },
+        "tensione": {
+            "label": "Tensione",
+            "type": "asyncdisplay",
+            "value": "236.3 V"
+        },
+        "corrente": {
+            "label": "Corrente",
+            "type": "asyncdisplay",
+            "value": "295 mA"
+        },
+        "tensione_lamp": {
+            "label": "Tensione Lamp.",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "temp_hid": {
+            "label": "Temp. HID",
+            "type": "asyncdisplay",
+            "value": "-"
+        },
+        "data": {
+            "label": "Data",
+            "type": "asyncdisplay",
+            "value": "27/02/2014"
+        },
+        "ora": {
+            "label": "Ora",
+            "type": "asyncdisplay",
+            "value": "04:32"
+        },
+        "img": {
+            "type": "uploadimage",
+            "label": "Immagine",
+            "value": "0"
+        }
+    },
+    "protocol": "p",
+    "type": "object",
+    "group": {
+        "path": "/images/elettricalpanel.png",
+        "id": "011405",
+        "name": "QE02"
+    },
+    "address": "011405421380063",
+    "apioId": "LOGOS SPA",
+    "name": "421380063",
+    "objectId": "011405421380063",
+    "_id": "57b0a052d087108060e1cb37"
+}

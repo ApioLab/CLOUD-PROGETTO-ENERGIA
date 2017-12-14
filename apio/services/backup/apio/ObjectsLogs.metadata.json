@@ -1,0 +1,1 @@
+{options : { "create" : "ObjectsLogs" }, indexes:[{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "apio.ObjectsLogs", "name" : "_id_" }]}

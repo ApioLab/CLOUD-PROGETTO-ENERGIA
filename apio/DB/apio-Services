@@ -1,0 +1,11 @@
+{"name":"autoInstall","show":"AutoInstall","url":"https://github.com/ApioLab/Apio-Services","username":"","password":"","port":"8101","_id":{"$oid":"57509d67e6b3766709d50bbf"}}
+{"name":"cloud","show":"Cloud","port":"8100","_id":{"$oid":"57509d67e6b3766709d50bc0"}}
+{"name":"enocean","show":"EnOcean","url":"https://github.com/ApioLab/Apio-Services","username":"","password":"","port":"8092","_id":{"$oid":"57509d67e6b3766709d50bc1"}}
+{"name":"githubUpdate","show":"githubUpdate","url":"https://github.com/ApioLab/Apio-Services","username":"","password":"","port":"8105","_id":{"$oid":"57509d67e6b3766709d50bc2"}}
+{"name":"shutdown","show":"Shutdown","url":"https://github.com/ApioLab/Apio-Services","username":"","password":"","port":"8096","_id":{"$oid":"57509d67e6b3766709d50bc3"}}
+{"name":"dongle","show":"DONGLE","url":"https://github.com/ApioLab/Apio-Services","username":"","password":"","port":"8091","_id":{"$oid":"57509df5dc0c45b505aeb8ff"}}
+{"name":"logic","show":"Logic","url":"https://github.com/ApioLab/Apio-Services","username":"","password":"","port":"8099","_id":{"$oid":"57509df5dc0c45b505aeb900"}}
+{"_id":{"$oid":"57509dcd202ad18104f80720"},"data":{"26":{"properties":{"switch":[]}}},"name":"notification","password":"","port":"8081","show":"Notification","url":"https://github.com/ApioLab/Apio-Services","username":""}
+{"_id":{"$oid":"57509dcd202ad18104f80721"},"data":{"26":{"properties":{"switch":[]}}},"isTransmitter":true,"name":"mail","password":"","port":"8081","show":"Mail","url":"https://github.com/ApioLab/Apio-Services","username":""}
+{"_id":{"$oid":"57509dcd202ad18104f80722"},"api_key":"a58036f16c9dac27dc8f5e3a58be431b0a422ed9","data":{"26":{"properties":{"switch":[]}}},"isTransmitter":true,"name":"sms","password":"","port":"8081","show":"SMS","url":"https://github.com/ApioLab/Apio-Services","username":""}
+{"_id":{"$oid":"57509dcee6d7b38204f42139"},"data":{},"exportLimit":{"xlsx":50},"name":"log","password":"","port":"8080","show":"Log","url":"https://github.com/ApioLab/Apio-Services","username":""}

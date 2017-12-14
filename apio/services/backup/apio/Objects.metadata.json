@@ -1,0 +1,1 @@
+{options : { "create" : "Objects" }, indexes:[{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "apio.Objects", "name" : "_id_" }]}

@@ -1,0 +1,32 @@
+<style>
+	div#registra_statoinput.glyphicon.glyphicon-bell{
+	    color:white;
+	}
+	span.glyphicon.glyphicon-remove.personalizaChevron{
+	    color:white;
+	}
+</style>
+<div id="ApioApplication35" ng-app="ApioApplication35" style="padding: 10px; background-color:rgb(223,108,48);">
+    <div ng-controller="defaultController">
+        <topappapplication style="color:#fff;"></topappapplication>
+        <div id="app" style="display: block;">
+            <collapse propertyName="collapseFrigo" label="Salotto" open="true" link="air">
+                <trigger propertyname="onoff" labelon="Luce Salotto On" labeloff="Luce Salotto Off" valueon="1" valueoff="0" writetoserial="false"></trigger>
+                <slider propertyname="dimmer" label="Intensità" min="0" max="65535" step="1"></slider> 
+            </collapse>
+            <collapse propertyName="collapseCamera" label="Camera" open="false" link="air">
+                <trigger propertyname="onoff1" labelon="Luce Camera On" labeloff="Luce Camera Off" valueon="1" valueoff="0" writetoserial="false"></trigger>
+                <slider propertyname="dimmer1" label="Intensità" min="0" max="65535" step="1"></slider> 
+            
+            </collapse>
+            <collapse propertyName="collapseCucina" label="Cucina" open="false" link="air">
+                <trigger propertyname="onoff2" labelon="Luce" labeloff="Luce Salotto Off" valueon="1" valueoff="0" writetoserial="false"></trigger>
+                <slider propertyname="dimmer2" label="Intensità" min="0" max="65535" step="1"></slider> 
+            
+            </collapse>
+            
+
+        </div>
+    </div>
+</div>
+<script src="applications/35/35.js"></script>

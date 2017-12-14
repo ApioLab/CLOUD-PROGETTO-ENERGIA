@@ -1,0 +1,1 @@
+{"address":"6","db":{},"name":"Fibaro Smart Plug 1","notifications":{},"objectId":"26","properties":{"switch":{"type":"trigger","value":"0","labeloff":"Off","labelon":"On","valueoff":"0","valueon":"1"}},"protocol":"z","type":"object","apioId":"69e03242-46ed-4992-8efa-1d872f6b4c16"}

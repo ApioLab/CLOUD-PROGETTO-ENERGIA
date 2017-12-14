@@ -1,0 +1,15 @@
+<div id="ApioApplication14" ng-app="ApioApplication14" style="padding: 10px;">
+    <div ng-controller="defaultController">
+        <topappapplication></topappapplication>
+        <div id="app" style="display: block;">
+            <!--<trigger propertyname="onoff" valueon="1" valueoff="0" labelon="On" labeloff="Off"></trigger>-->
+            <!--<graph graphname="graphix" plot="temperature,humidity" type="avg-15"></graph>-->
+            <slider propertyname="controltemp" label="Set Point" min="0" max="40" step="1" writetoserial="false"></slider>
+            <unlimitedsensor propertyname="temperature" label="Temperatura" writetoserial="false"></unlimitedsensor>
+            <unlimitedsensor propertyname="humidity" label="Umidità" writetoserial="false"></unlimitedsensor>
+            <unlimitedsensor propertyname="humidex" label="Temperatura Percepita" writetoserial="false"></unlimitedsensor>
+            <log label="Log"></log>
+        </div>
+    </div>
+</div>
+<script src="applications/14/14.js"></script>

@@ -1,0 +1,133 @@
+<style>
+    div#rankingLabel.box_proprietaiPhone {
+        margin-bottom: 0 !important;
+    }
+
+    div#registra_statoinput.glyphicon.glyphicon-bell {
+        color: white;
+    }
+
+    span.glyphicon.glyphicon-remove.personalizaChevron {
+        color: white;
+    }
+
+    #energy, #energy1 {
+        width: 50%;
+        float: left;
+
+    }
+
+    #labelEnery {
+        margin: 0;
+        min-height: 0;
+        min-height: 10px;
+        font-size: 12px;
+    }
+
+    #labelEnerylabel, #emojiRankinglabel {
+        padding: 0;
+    }
+
+    #emojiRanking {
+        margin: 0;
+        background: none;
+    }
+
+    .emojiContent {
+        width: 100%;
+        height: 100%;
+        display: table;
+    }
+
+    .emojiContent img {
+        display: table-cell;
+        vertical-align: middle;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-radius: 100px;
+    }
+
+    #registra_statoinput {
+        display: none;
+    }
+
+    a.appName {
+        color: #fff;
+    }
+
+</style>
+<div id="ApioApplication16" ng-app="ApioApplication16" style="background-color:rgba(58, 138, 209, 0.85);">
+    <div ng-controller="defaultController">
+        <topappapplication style="color:#fff;"></topappapplication>
+        <div id="app" style="display:block;">
+
+            <!-- ESPERIMENTO CON ANGULAR MATERIAL
+            <md-autocomplete md-selected-item="selectedItem" md-search-text="searchText" md-items="item in getMatches(searchText)" md-item-text="item.display">
+          <md-item-template>
+            <span md-highlight-text="searchText">{{item.display}}</span>
+          </md-item-template>
+          <md-not-found>
+            No matches found.
+          </md-not-found>
+        </md-autocomplete>
+        -->
+
+            <!--<property propertyname="emojiRanking">
+                   <div class="emojiContent">
+                       <img src="/applications/16/images/1.gif" ng-class="{'displayNone':object.properties.ranking!='1'}">
+                       <img src="/applications/16/images/2.gif" ng-class="{'displayNone':object.properties.ranking!='2'}">
+                       <img src="/applications/16/images/3.gif" ng-class="{'displayNone':object.properties.ranking!='3'}">
+                       <img src="/applications/16/images/4.gif" ng-class="{'displayNone':object.properties.ranking!='4'}">
+                       <img src="/applications/16/images/5.gif" ng-class="{'displayNone':object.properties.ranking!='5'}">
+                   </div>
+           </property>-->
+            <ranking propertyname="ranking" propertyvalue="{{object.properties.energy}}" min-star1="100" max-star1="150"
+                     min-star2="181" max-star2="200" min-star3="201" max-star3="260" min-star4="261" max-star4="290"
+                     min-star5="291" max-star5="331"></ranking>
+
+
+            <!--<property propertyName="rankingLabel" style="margin-bottom:0;">Ranking {{object.properties.ranking}}/5</property>-->
+            <property propertyname="labelEnery" style="">
+                <div class="row">
+                    <div class="col-xs-6" style="border-right:solid 1px;">Consumo del mese</div>
+                    <div class="col-xs-6" style="line-height: 20px;">Consumo del mese scorso</div>
+                </div>
+            </property>
+
+            <unlimitedsensor propertyname="energy" label="KWh:" style="margin-top:0;"></unlimitedsensor>
+            <unlimitedsensor propertyname="energy1" label="KWh:" style="margin-top:0;"></unlimitedsensor>
+
+            <trigger propertyname="onoff" labelon="Energy Manager Attivato" labeloff="Energy Manager disattivato"
+                     valueon="1" valueoff="0" writetoserial="false"
+                     style="margin-bottom:0%; margin-top:5% !important;"></trigger>
+            <collapse label="More Info" propertyname="info1" open="false">Attivando la funzione Energy Manager puoi
+                selezionare un set point sulla potenza attuale misurata ed ogni qualvolta questa supererà il valore
+                scelto il sistema configurerà i tuoi dispositivi in modo da raggiungere il consumo massimo da te
+                indicato.
+            </collapse>
+            <unlimitedsensor propertyname="power" label="Assorbimento attuale [KW]:"
+                             style="margin:0;"></unlimitedsensor>
+            <slider propertyname="setpointpower" label="Set Point" min="0" max="15000" step="1" writetoserial="false"
+                    style="margin-bottom:0%;"></slider>
+            <collapse label="More Info" propertyname="info2" open="false">Seleziona i dispositivi che vuoi escludere dal
+                controllo di Energy Manager
+            </collapse>
+
+            <trigger style="margin:0;" propertyname="luciFrigo" labelon="Luci Frigo" labeloff="Luci Frigo" valueon="1"
+                     valueoff="0" writetoserial="false"></trigger>
+            <trigger style="margin:0;" propertyname="luciCasse" labelon="Luci Casse" labeloff="Luci Casse" valueon="1"
+                     valueoff="0" writetoserial="false"></trigger>
+            <trigger style="margin:0;" propertyname="luciFrutta" labelon="Luci Frutta" labeloff="Luci Frutta"
+                     valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger style="margin:0;" propertyname="luciMacelleria" labelon="Luci Macelleria"
+                     labeloff="Luci Macelleria" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger style="margin:0;" propertyname="luciCasalinghi" labelon="Luci Casalinghi"
+                     labeloff="Luci Casalinghi" valueon="1" valueoff="0" writetoserial="false"></trigger>
+        </div>
+    </div>
+</div>
+<script src="applications/16/16.js"></script>

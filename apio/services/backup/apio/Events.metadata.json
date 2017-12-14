@@ -1,0 +1,1 @@
+{options : { "create" : "Events" }, indexes:[{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "apio.Events", "name" : "_id_" }]}

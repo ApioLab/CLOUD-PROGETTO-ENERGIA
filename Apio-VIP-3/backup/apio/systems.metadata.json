@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "name" : "_id_", "key" : { "_id" : 1 }, "ns" : "apio.systems" }, { "v" : 1, "name" : "apioId_1", "key" : { "apioId" : 1 }, "unique" : true, "ns" : "apio.systems", "background" : true } ] }

@@ -1,0 +1,1 @@
+{options : { "create" : "ServicesCloud" }, indexes:[{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "apio.ServicesCloud", "name" : "_id_" }]}

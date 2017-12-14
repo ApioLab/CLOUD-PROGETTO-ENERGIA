@@ -1,0 +1,11 @@
+<div id="ApioApplication23" ng-app="ApioApplication23" style="padding: 10px;">
+    <div ng-controller="defaultController">
+        <topappapplication></topappapplication>
+        <div id="app" style="display: block;">
+            <trigger propertyname="addNode" labelon="Learning Mode" labeloff="Learning Mode" valueon="1" valueoff="0" writetoserial="false" listener="addNode()"></trigger>
+            <trigger propertyname="removeNode" labelon="Remove Mode" labeloff="Remove Mode" valueon="1" valueoff="0" writetoserial="false" listener="removeNode()"></trigger>
+            <trigger propertyname="hardReset" labelon="Hard Reset" labeloff="Hard Reset" valueon="1" valueoff="0" writetoserial="false" listener="hardReset()"></trigger>
+        </div>
+    </div>
+</div>
+<script src="applications/23/23.js"></script>

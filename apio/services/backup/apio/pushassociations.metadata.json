@@ -1,0 +1,1 @@
+{indexes:[{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "apio.pushassociations", "name" : "_id_" }, { "v" : 1, "key" : { "user" : 1, "token" : 1 }, "unique" : true, "ns" : "apio.pushassociations", "name" : "user_1_token_1", "background" : true, "safe" : null }]}

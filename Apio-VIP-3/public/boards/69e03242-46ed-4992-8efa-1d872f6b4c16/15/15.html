@@ -1,0 +1,33 @@
+<style>
+    div#registra_statoinput.glyphicon.glyphicon-bell {
+        color: white;
+    }
+
+    span.glyphicon.glyphicon-remove.personalizaChevron {
+        color: white;
+    }
+</style>
+<div id="ApioApplication15" ng-app="ApioApplication15" style="padding: 10px; background-color:rgb(43,44,52);">
+    <div ng-controller="defaultController">
+        <topappapplication style="color: #fff;"></topappapplication>
+        <div id="app" style="display: block;">
+            <trigger propertyname="onoff" labelon="Quadro Generale" labeloff="Quadro Generale" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger propertyname="onoff1" labelon="Quadro Magazzino" labeloff="Quadro Magazzino" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger propertyname="onoff2" labelon="Parcheggio" labeloff="Parcheggio" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger propertyname="onoff3" labelon="Casse" labeloff="Casse" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger propertyname="frigo" labelon="Frigo" labeloff="Frigo" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger propertyname="clima" labelon="Climatizzatore" labeloff="Climatizzatore" valueon="1" valueoff="0" writetoserial="false"></trigger>
+            <trigger propertyname="luci" labelon="Luci On" labeloff="Luci Off" valueon="1" valueoff="0" writetoserial="false" 
+            protocolAddress="3082"
+            protocolProperty='rel4'
+            protocolName='apio'
+            protocolType='DIN8'
+            protocolFun='update'
+            protocolBindToProperty="true"
+            ></trigger>
+            <!--<asyncdisplay propertyName="RSSI" label="RSSI"></asyncdisplay>-->
+            <!--<log label="Log"></log>-->
+        </div>
+    </div>
+</div>
+<script src="applications/15/15.js"></script>

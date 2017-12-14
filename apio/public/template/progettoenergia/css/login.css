@@ -1,0 +1,311 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+            .smartphoneLoginImageRules {
+                display: none !important;
+                width: 20%;
+                margin: 0 auto;
+            }
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                padding-bottom: 40px;
+                background-color: #fff;
+                color:#b7b7b7!important;
+            }
+            body {
+		        background: url(images/sfondo.jpg) no-repeat;
+				background-size: cover;
+	        }
+            .form-signin {
+                max-width: 95%;
+                padding: 20px;
+                margin: 0 auto;
+                font-size: 18px;
+            }
+            .tabletLogin {
+                height: 100%;
+                background-color: rgba(45, 45, 45, 0.75);
+            }
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 10px;
+            }
+            .form-signin .form-signin-heading {
+                font-size: 24px;
+            }
+            .form-signin .checkbox {
+                font-weight: normal;
+            }
+            .form-signin .form-control {
+                position: relative;
+                height: auto;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+                z-index: 2;
+            }
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+            .smartphoneLoginImageRules {
+                display: none;
+                width: 300px;
+                margin: 0 auto;
+            }
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                padding-bottom: 40px;
+                background-color: #fff;
+                color:#b7b7b7!important;
+            }
+            body {
+		        background: url(images/sfondo.jpg) no-repeat;
+				background-size: cover;
+	        }
+            .form-signin {
+                max-width: 80%;
+                padding: 7% 2% 2% 2%;
+                margin: 0 auto;
+                font-size: 18px;
+            }
+            .tabletLogin {
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.75);
+            }
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 10px;
+            }
+            .form-signin .form-signin-heading {
+                font-size: 24px;
+            }
+            .form-signin .checkbox {
+                font-weight: normal;
+            }
+            .form-signin .form-control {
+                position: relative;
+                height: auto;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+                z-index: 2;
+            }
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                padding-bottom: 40px;
+                background-color: #fff;
+                color:#b7b7b7!important;
+            }
+            body {
+		        background: url(images/sfondo.jpg) no-repeat;
+				background-size: cover;
+	        }
+            .form-signin {
+                max-width: 350px;
+                padding: 7% 2% 2% 2%;
+                margin: 0 auto;
+            }
+            .tabletLogin {
+                width: 60%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgba(255, 255, 255, 0.75);
+            }
+            .tabletLoginImageRules {
+                display: block;
+                width: 300px;
+                margin: 0px auto;
+            }
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 10px;
+            }
+            .form-signin .checkbox {
+                font-weight: normal;
+            }
+            .form-signin .form-control {
+                position: relative;
+                height: auto;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+                z-index: 2;
+            }
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                padding-bottom: 40px;
+                background-color: #fff;
+                color:#b7b7b7!important;
+            }
+            body {
+		        background: url(images/sfondo.jpg) no-repeat;
+				background-size: cover;
+	        }
+            .form-signin {
+                max-width: 350px;
+                padding: 7% 2% 2% 2%;
+                margin: 0 auto;
+            }
+            .tabletLogin {
+                width: 50%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgba(255, 255, 255, 0.75);
+            }
+            .tabletLoginImageRules {
+                display: block;
+                width: 300px;
+                margin: 0px auto;
+            }
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 10px;
+            }
+            .form-signin .checkbox {
+                font-weight: normal;
+            }
+            .form-signin .form-control {
+                position: relative;
+                height: auto;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+                z-index: 2;
+            }
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+        @media only screen and (min-width: 1200px) {
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                padding-bottom: 40px;
+                background-color: #fff;
+                color:#b7b7b7!important;
+            }
+            
+            body {
+		        background: url(images/sfondo.jpg) no-repeat;
+				background-size: cover;
+	        }
+            .form-signin {
+                max-width: 355px;
+                padding: 7% 2% 2% 2%;
+                margin: 0 auto;
+            }
+            
+            .desktopLogin {
+                width: 37%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: rgba(45, 45, 45, 0.75);
+            }
+            .desktopLoginImageRules {
+                display: block;
+                width: 300px;
+                margin: 0px auto;
+            }
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 10px;
+            }
+            .form-signin .checkbox {
+                font-weight: normal;
+            }
+            .form-signin .form-control {
+                position: relative;
+                height: auto;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+                z-index: 2;
+            }
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+			
+        }
+		
